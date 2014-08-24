@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CE1.91" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/swc/CE1.9.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -2,8 +2,13 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="PutTogeher">
     <configurations>
-      <configuration name="PutTogeher" pure-as="true" main-class="PutTogeher" output-file="PutTogeher.swf" output-folder="$MODULE_DIR$/bin-debug" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+      <configuration name="PutTogeher" pure-as="true" main-class="wackobytes.imath.PutTogeher.PutTogeher" output-file="PutTogeher.swf" output-folder="$MODULE_DIR$/bin-debug" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="14.0">
+          <entries>
+            <entry library-name="CE1.91" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="AIRSDK" />
         </dependencies>
         <compiler-options>
@@ -25,6 +30,9 @@
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="CEV3-1-9-Starling-Feathers-Box2D" level="project" />
+    <orderEntry type="library" exported="" name="CE1.9" level="project" />
+    <orderEntry type="library" exported="" name="CE1.91" level="project" />
   </component>
 </module>
 
